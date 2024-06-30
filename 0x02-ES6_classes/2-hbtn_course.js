@@ -2,7 +2,7 @@ export default class HolbertonCourse {
   constructor(name, length, students) {
     this._name = (typeof name === 'string') ? name : console.error('TypeError: Name must be a string');
 
-    this._length = (typeof length === 'number') ? length : console.error('TypeError: length must be a number');
+    this._length = (typeof length === 'number') ? length : console.error('TypeError: Length must be a number');
 
     this._students = (typeof students === 'object') ? students : console.error('TypeError: Students must be a array');
   }
@@ -34,7 +34,7 @@ export default class HolbertonCourse {
     if (typeof length === 'number') {
       this._length = length;
     } else {
-      console.error('TypeError: length must be a number');
+      console.error('TypeError: Length must be a number');
     }
   }
 
