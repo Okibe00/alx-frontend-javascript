@@ -1,0 +1,6 @@
+node_module*
+.eslint*
+babel*
+package.json
+package-lock*
+*main.js
